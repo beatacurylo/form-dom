@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+    <form action="https://formspree.io/curylo.beata@gmail.com" method="post">
+        <label for="firstName">Podaj imię:</label><br>
+        <input type="text" name="firstName" id="firstName"><br>
+        <label for="lastName">Podaj nazwisko:</label><br>
+        <input type="text" name="lastName" id="lastName"><br>
+        <label for="email">Podaj email:</label><br>
+        <input type="email" id="email"><br>
+        <label for="tel">Podaj tel:</label><br>
+        <input type="tel" id="tel"><br>
+        <p>Wybór miasta <select name="Wybór miasta" id="">
+                <option value="Warszawa">Warszawa</option>
+                <option value="Krakow">Kraków</option>
+                <option value="Katowice">Gdansk</option>
+            </select></p>
+        Zaznacz plec:<br>
+        <input type="radio" name="plec">Kobieta
+        <input type="radio" name="plec">Mezczyzna<br>
+      <p> Zgoda na przetwarzanie danych osobowych
+          <input type="radio" name="zgoda">tak
+          <input type="radio" name="zgoda" >nie<br>
+       <p> <label for="wiadomosc">Podaj wiadomość</label><br>
+        <textarea name="msg" maxlength="100" id="wiadomosc" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="wyslij"><br>
+        </p>
+    </form>
+</body>
+</html>
